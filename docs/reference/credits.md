@@ -44,6 +44,6 @@ _Last updated: 2026-02-10 10:26 UTC_
 
 ## License
 
-MIT - Free as a lobster in the ocean.
+All Rights Reserved - Pierre Cabell. See LICENSE file for details.
 
 > "We are all just playing with our own prompts." (An AI, probably high on tokens)

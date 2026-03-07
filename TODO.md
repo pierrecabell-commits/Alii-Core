@@ -8,8 +8,8 @@
 
 ### 1. License Update
 - [x] Replace MIT license with All Rights Reserved (Pierre Cabell)
-- [ ] Update `package.json` license field from `"MIT"` to `"SEE LICENSE IN LICENSE"`
-- [ ] Remove any MIT license references in documentation or headers
+- [x] Update `package.json` license field from `"MIT"` to `"SEE LICENSE IN LICENSE"`
+- [x] Remove any MIT license references in documentation or headers
 
 ### 2. File Size Refactoring (In Progress)
 These files exceed the 700 LOC guideline and need splitting:
