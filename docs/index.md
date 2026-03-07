@@ -52,7 +52,7 @@ OpenClaw is a **self-hosted gateway** that connects your favorite chat apps — 
 - **Self-hosted**: runs on your hardware, your rules
 - **Multi-channel**: one Gateway serves WhatsApp, Telegram, Discord, and more simultaneously
 - **Agent-native**: built for coding agents with tool use, sessions, memory, and multi-agent routing
-- **Open source**: MIT licensed, community-driven
+- **Proprietary**: All Rights Reserved (Pierre Cabell)
 
 **What do you need?** Node 22+, an API key (Anthropic recommended), and 5 minutes.
 
