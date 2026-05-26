@@ -81,10 +81,10 @@ These files exceed the 700 LOC guideline and need splitting:
 - [x] Rewrite README with full architecture, channel roster, and SDK showcase
 - [x] Create OPTIMIZATIONS.md with 28 performance/architecture improvements
 - [ ] Complete API reference documentation in Mintlify docs
-- [ ] Add troubleshooting guide for common channel issues
-- [ ] Document all environment variables and their defaults
+- [x] Add troubleshooting guide for common channel issues
+- [x] Document all environment variables and their defaults
 - [ ] Create extension development tutorial (step-by-step)
-- [ ] Add architecture decision records (ADRs)
+- [x] Add architecture decision records (ADRs)
 - [ ] Update CHANGELOG.md to reflect latest changes
 
 ### 9. Mobile App Completion
@@ -135,7 +135,7 @@ These files exceed the 700 LOC guideline and need splitting:
 - [ ] Add incremental TypeScript compilation
 - [ ] Improve pnpm dev hot-reload speed
 - [ ] Reduce Docker image size (multi-stage build optimization)
-- [ ] Add development container (devcontainer) config
+- [x] Add development container (devcontainer) config
 
 ---
 
