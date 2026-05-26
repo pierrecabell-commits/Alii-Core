@@ -35,20 +35,20 @@ These files exceed the 700 LOC guideline and need splitting:
 
 ### 3. Channel Stability (Active Priority)
 - [ ] Fix edge cases in WhatsApp channel connection handling
-- [ ] Fix edge cases in Telegram channel connection handling
+- [x] Fix edge cases in Telegram channel connection handling
 - [ ] Improve reconnection logic for all channel adapters
 - [ ] Add connection state recovery after network interruptions
 
 ### 4. Security Hardening
-- [ ] Verify all dependency overrides in `pnpm.overrides` are current
+- [ ] Verify all dependency overrides in pnpm.overrides are current
 - [ ] Update Node.js version requirements for latest CVE patches
-- [ ] Review and update `.secrets.baseline` for secret detection
+- [ ] Review and update .secrets.baseline for secret detection
 - [ ] Audit all HTTP endpoints for authentication requirements
 - [ ] Verify web UI is never exposed publicly (local-only binding)
 
 ---
 
-## HIGH PRIORITY -- Before Production Use
+## HIGH PRIORITY
 
 ### 5. Onboarding Experience
 - [ ] Improve onboarding wizard error messages
@@ -66,18 +66,20 @@ These files exceed the 700 LOC guideline and need splitting:
 
 ### 7. Extension Testing Coverage
 - [ ] Add unit tests for all extensions missing tests:
-  - [ ] `extensions/discord/`
-  - [ ] `extensions/signal/`
-  - [ ] `extensions/imessage/`
-  - [ ] `extensions/phone-control/`
-  - [ ] `extensions/device-pair/`
-  - [ ] `extensions/voice-call/`
-  - [ ] `extensions/line/`
+  - [ ] extensions/discord/
+  - [ ] extensions/signal/
+  - [ ] extensions/imessage/
+  - [ ] extensions/phone-control/
+  - [ ] extensions/device-pair/
+  - [ ] extensions/voice-call/
+  - [ ] extensions/line/
 - [ ] Add integration tests for channel connection lifecycle
 - [ ] Add tests for plugin registration and discovery
 - [ ] Ensure all extensions have consistent error handling
 
 ### 8. Documentation Gaps
+- [x] Rewrite README with full architecture, channel roster, and SDK showcase
+- [x] Create OPTIMIZATIONS.md with 28 performance/architecture improvements
 - [ ] Complete API reference documentation in Mintlify docs
 - [ ] Add troubleshooting guide for common channel issues
 - [ ] Document all environment variables and their defaults
@@ -98,7 +100,7 @@ These files exceed the 700 LOC guideline and need splitting:
 
 ---
 
-## MEDIUM PRIORITY -- Quality and Reliability
+## MEDIUM PRIORITY
 
 ### 10. Plugin SDK Improvements
 - [ ] Add more comprehensive TypeScript type exports
@@ -129,15 +131,15 @@ These files exceed the 700 LOC guideline and need splitting:
 - [ ] Improve vector search accuracy in memory-lancedb extension
 
 ### 14. Build and Development
-- [ ] Optimize `pnpm build` time (currently includes UI build)
+- [ ] Optimize pnpm build time (currently includes UI build)
 - [ ] Add incremental TypeScript compilation
-- [ ] Improve `pnpm dev` hot-reload speed
+- [ ] Improve pnpm dev hot-reload speed
 - [ ] Reduce Docker image size (multi-stage build optimization)
 - [ ] Add development container (devcontainer) config
 
 ---
 
-## LOW PRIORITY -- Polish
+## LOW PRIORITY
 
 ### 15. TUI Improvements
 - [ ] Add real-time message flow visualization
@@ -160,7 +162,7 @@ These files exceed the 700 LOC guideline and need splitting:
 
 ### 18. Code Quality
 - [ ] Enable stricter TypeScript compiler options where possible
-- [ ] Reduce `any` type usage across the codebase
+- [ ] Reduce any type usage across the codebase
 - [ ] Add ESLint rules for common anti-patterns
 - [ ] Standardize error types across all modules
 - [ ] Add code complexity metrics to CI
@@ -174,4 +176,4 @@ These files exceed the 700 LOC guideline and need splitting:
 
 ---
 
-*Last updated: 2026-03-07*
+Last updated: 2026-05-26
