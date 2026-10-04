@@ -1,3 +1,7 @@
+> **Note:** Alii-Core is a fork of [OpenClaw](https://github.com/openclaw/openclaw) by Peter Steinberger, licensed under MIT. I use it as a TypeScript agent-runtime sandbox for experiments and documentation work.
+
+---
+
 <p align="center">
   <strong>A L I I - C O R E</strong>
 </p>
